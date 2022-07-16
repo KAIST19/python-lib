@@ -90,3 +90,34 @@ DG.add_edge(1, 2)
 >>> G.remove_nodes_from("spam")
 >>> G.remove_edge(1, 3)
 ```
+
+## Drawing a graph using Matplotlib
+
+```python
+# Draw the graph G with Matplotlib.
+draw(G[, pos, ax])
+# Draw the graph G using Matplotlib.
+draw_networkx(G[, pos, arrows, with_labels])
+# Draw the nodes of the graph G.
+draw_networkx_nodes(G, pos[, nodelist, ...])
+# Draw the edges of the graph G.
+draw_networkx_edges(G, pos[, edgelist, ...])
+# Draw node labels on the graph G.
+draw_networkx_labels(G, pos[, labels, ...])
+# Draw edge labels.
+draw_networkx_edge_labels(G, pos[, ...])
+# Draw the graph G with a circular layout.
+draw_circular(G, **kwargs)
+# Draw the graph G with a Kamada-Kawai force-directed layout.
+draw_kamada_kawai(G, **kwargs)
+# Draw a planar networkx graph G with planar layout.
+draw_planar(G, **kwargs)
+# Draw the graph G with a random layout.
+draw_random(G, **kwargs)
+# Draw the graph G with a spectral 2D layout.
+draw_spectral(G, **kwargs)
+# Draw the graph G with a spring layout.
+draw_spring(G, **kwargs)
+# Draw networkx graph G with shell layout.
+draw_shell(G[, nlist])
+```
