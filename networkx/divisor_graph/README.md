@@ -1,4 +1,4 @@
-# Divisor graphs
+# Divisor graph
 
 ![Result](result.png)
 
